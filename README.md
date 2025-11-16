@@ -60,8 +60,7 @@ Ensure you have the following installed:
 1. **Clone the Repository:**  
    Open your terminal and run:  
 
-   ```bash  
-   git clone https://github.com/MaheshBabu777/Secure-Inter-process-Communication.git  
+   ```bash 
    cd Secure-Inter-process-Communication
    ```
 # **Compile the C++ Code**  
@@ -119,8 +118,5 @@ Secure-Inter-process-Communication/
 └── README.md                    
 ```
 # **Links**  
-
-- **GitHub Repository:** [https://github.com/Maheshbabu777/Secure-Inter-process-Communication.git](#)  
-- **Live Demo (Web Interface):** https://maheshbabu777.github.io/Secure-Inter-process-Communication/ 
-
 This project is designed to demonstrate the principles of **secure inter-process communication**. You can further extend it by integrating more **complex IPC mechanisms**, enhancing **authentication**, or using more **advanced encryption techniques**.
+
