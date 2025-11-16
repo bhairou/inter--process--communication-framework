@@ -44,10 +44,7 @@ int main() {
         send_msg(encrypted_message);
 
         log_message("Message encrypted, written to SHM, and sent via queue.");
-    } else if (role == 2) {
-        string shm_message = read_from_shm();
-        string decrypted_shm = decrypt(shm_message);
-        cout << "Message from Shared Memory (Decrypted): " << decrypted_shm << endl;
+   
 
         string queue_message = recive_msg();
         string decrypted_queue = decrypt(queue_message);
@@ -60,4 +57,5 @@ int main() {
 
     return 0;
 }
+
 
