@@ -6,6 +6,7 @@
 
 std::string encrypt(const std::string &data);
 std::string decrypt(const std::string &data);
-bool authenticate(const std::string &user, const std::string &password);
+
 
 #endif
+
