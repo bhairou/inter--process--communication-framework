@@ -4,12 +4,6 @@
 #include "include/management.h"
 using namespace std;
 
-void print_hex(const string &data) {
-    for (unsigned char c : data) {
-        printf("%02X ", c);
-    }
-    printf("\n");
-}
 
 
 int main() {
@@ -62,3 +56,4 @@ int main() {
 
     return 0;
 }
+
